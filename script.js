@@ -47,7 +47,7 @@ function MyClass(tempX, tempY){
       this.xSpeed *= -1; 
     }
     if(this.y > height || this.y < 0){
-      this.ySpeed =* -1; 
+      this.ySpeed *= -1; 
     }
   }
   
